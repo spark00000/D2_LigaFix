@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "minAppVersion": "1.13.0",
   "description": "Enables D2Coding programming ligatures (->, =>, !=, <=, >=) in Hangul context, including headings, by fixing the theme letter-spacing that disables ligatures.",
-  "author": "spark000000",
+  "author": "spark00000",
   "isDesktopOnly": true,
   "fundingUrl": ""
 }
