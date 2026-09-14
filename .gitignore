@@ -1,0 +1,10 @@
+node_modules/
+main.js
+*.map
+_pArc/
+.obsidian/
+_work/
+out/
+packages/
+__pycache__/
+*.pyc

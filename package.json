@@ -1,0 +1,20 @@
+{
+  "name": "obsidian-d2-ligafix",
+  "version": "0.0.1",
+  "description": "D2_LigaFix Obsidian plugin — heading letter-spacing ligature fix",
+  "main": "main.js",
+  "scripts": {
+    "build": "node esbuild.config.mjs",
+    "dev": "node esbuild.config.mjs --watch"
+  },
+  "keywords": ["obsidian", "plugin", "ligature", "hangul", "d2coding"],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "builtin-modules": "^3.3.0",
+    "esbuild": "^0.21.0",
+    "obsidian": "^1.5.0",
+    "tslib": "^2.6.0",
+    "typescript": "^5.4.0"
+  }
+}

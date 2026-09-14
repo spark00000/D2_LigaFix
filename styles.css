@@ -1,0 +1,43 @@
+/*
+ * LIGA-CSS-001: Heading letter-spacing compatibility fix.
+ *
+ * Chromium suppresses OpenType ligatures on runs where `letter-spacing` is
+ * non-zero. Obsidian themes (e.g. AnuPpuccin) commonly set heading
+ * letter-spacing, so programming ligatures like "->" silently stop rendering
+ * inside headings while body text still shows them.
+ *
+ * Fix: force `letter-spacing: normal` on every heading surface (reading view,
+ * live preview, source mode) so shaping matches body text.
+ */
+.markdown-rendered h1,
+.markdown-rendered h2,
+.markdown-rendered h3,
+.markdown-rendered h4,
+.markdown-rendered h5,
+.markdown-rendered h6,
+.markdown-rendered h1 *,
+.markdown-rendered h2 *,
+.markdown-rendered h3 *,
+.markdown-rendered h4 *,
+.markdown-rendered h5 *,
+.markdown-rendered h6 * {
+  letter-spacing: normal !important;
+}
+
+.cm-s-obsidian .cm-header-1,
+.cm-s-obsidian .cm-header-2,
+.cm-s-obsidian .cm-header-3,
+.cm-s-obsidian .cm-header-4,
+.cm-s-obsidian .cm-header-5,
+.cm-s-obsidian .cm-header-6,
+.cm-s-obsidian .cm-header-1 *,
+.cm-s-obsidian .cm-header-2 *,
+.cm-s-obsidian .cm-header-3 *,
+.cm-s-obsidian .cm-header-4 *,
+.cm-s-obsidian .cm-header-5 *,
+.cm-s-obsidian .cm-header-6 *,
+.markdown-source-view.mod-cm6 .HyperMD-header,
+.markdown-source-view.mod-cm6 .HyperMD-header *,
+.markdown-source-view.mod-cm6 .cm-line[class*="HyperMD-header-"] {
+  letter-spacing: normal !important;
+}
