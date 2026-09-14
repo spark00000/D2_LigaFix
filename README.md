@@ -1,4 +1,4 @@
-# D2_LigaFix
+# D2 LigaFix
 
 한글 문맥에서 프로그래밍 ligature(결합 문자)가 표시되지 않는 문제를 해결하는 Obsidian 플러그인입니다.
 
@@ -16,9 +16,9 @@ D2Coding에서는 `->`, `=>`, `!=`, `<=`, `>=` 같은 programming ligature가 �
 
 ### 1. 플러그인 설치
 
-Obsidian → Settings → Community plugins → Browse → **D2_LigaFix** 검색 → Install → Enable.
+Obsidian → Settings → Community plugins → Browse → **D2 LigaFix** 검색 → Install → Enable.
 
-> 수동 설치는 `manifest.json`, `main.js`, `styles.css`를 `.obsidian/plugins/d2-ligafix/` 폴더에 복사하고 플러그인을 활성화합니다.
+> 수동 설치는 `manifest.json`, `main.js`, `styles.css`를 `.obsidian/plugins/dcoding-ligafix/` 폴더에 복사하고 플러그인을 활성화합니다.
 
 ### 2. 폰트 설치 (필수)
 

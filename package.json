@@ -1,7 +1,7 @@
 {
-  "name": "obsidian-d2-ligafix",
+  "name": "dcoding-ligafix",
   "version": "0.0.1",
-  "description": "D2_LigaFix Obsidian plugin — heading letter-spacing ligature fix",
+  "description": "D2 LigaFix Obsidian plugin — heading letter-spacing ligature fix",
   "main": "main.js",
   "scripts": {
     "build": "node esbuild.config.mjs",

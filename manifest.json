@@ -1,6 +1,6 @@
 {
-  "id": "d2-ligafix",
-  "name": "D2_LigaFix",
+  "id": "dcoding-ligafix",
+  "name": "D2 LigaFix",
   "version": "0.0.1",
   "minAppVersion": "1.13.0",
   "description": "Enables D2Coding programming ligatures (->, =>, !=, <=, >=) in Hangul context, including headings, by fixing the theme letter-spacing that disables ligatures.",
